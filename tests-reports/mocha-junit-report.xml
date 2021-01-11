@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0030" tests="12" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-01-10T22:45:02" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Call class" timestamp="2021-01-10T22:45:02" tests="0" file="/Users/lorenzolamas/proyects/test-sura/src/models/Call.spec.ts" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Constructor" timestamp="2021-01-10T22:45:02" tests="2" file="/Users/lorenzolamas/proyects/test-sura/src/models/Call.spec.ts" time="0.0020" failures="0">
+    <testcase name="Call class Constructor Can be instance" time="0.0020" classname="Can be instance">
+    </testcase>
+    <testcase name="Call class Constructor Given a Call and pass a 15 second when call isEnded then return true" time="0.0000" classname="Given a Call and pass a 15 second when call isEnded then return true">
+    </testcase>
+  </testsuite>
+  <testsuite name="asingEmployer method" timestamp="2021-01-10T22:45:02" tests="1" file="/Users/lorenzolamas/proyects/test-sura/src/models/Call.spec.ts" time="0.0000" failures="0">
+    <testcase name="Call class asingEmployer method Given a call and a CallcenterEmployer when call the method then this employer is asigned to the call" time="0.0000" classname="Given a call and a CallcenterEmployer when call the method then this employer is asigned to the call">
+    </testcase>
+  </testsuite>
+  <testsuite name="Dispatcher class" timestamp="2021-01-10T22:45:02" tests="1" file="/Users/lorenzolamas/proyects/test-sura/src/models/Dispatcher.spec.ts" time="0.0000" failures="0">
+    <testcase name="Dispatcher class Can be instance" time="0.0000" classname="Can be instance">
+    </testcase>
+  </testsuite>
+  <testsuite name="dispatchCall method" timestamp="2021-01-10T22:45:02" tests="4" file="/Users/lorenzolamas/proyects/test-sura/src/models/Dispatcher.spec.ts" time="0.0010" failures="0">
+    <testcase name="Dispatcher class dispatchCall method Given a call and no employee can attend, then when the method is called, then an error is triggered" time="0.0010" classname="Given a call and no employee can attend, then when the method is called, then an error is triggered">
+    </testcase>
+    <testcase name="Dispatcher class dispatchCall method Given a call and can only a Operator can attend, then when the method is called, the call its asigned to this Director" time="0.0000" classname="Given a call and can only a Operator can attend, then when the method is called, the call its asigned to this Director">
+    </testcase>
+    <testcase name="Dispatcher class dispatchCall method Given a call and can only a Director can attend, then when the method is called, the call its asigned to this Director" time="0.0000" classname="Given a call and can only a Director can attend, then when the method is called, the call its asigned to this Director">
+    </testcase>
+    <testcase name="Dispatcher class dispatchCall method Given a call and can only a Director can attend, then when the method is called, the call its asigned to this Director" time="0.0000" classname="Given a call and can only a Director can attend, then when the method is called, the call its asigned to this Director">
+    </testcase>
+  </testsuite>
+  <testsuite name="Operator class" timestamp="2021-01-10T22:45:02" tests="1" file="/Users/lorenzolamas/proyects/test-sura/src/models/Operator.spec.ts" time="0.0000" failures="0">
+    <testcase name="Operator class Can be instance" time="0.0000" classname="Can be instance">
+    </testcase>
+  </testsuite>
+  <testsuite name="isOnCall method" timestamp="2021-01-10T22:45:02" tests="3" file="/Users/lorenzolamas/proyects/test-sura/src/models/Operator.spec.ts" time="0.0000" failures="0">
+    <testcase name="Operator class isOnCall method Given a new instance the operator is not onCall" time="0.0000" classname="Given a new instance the operator is not onCall">
+    </testcase>
+    <testcase name="Operator class isOnCall method Given an operator that has a call assigned when the method is called then it returns true" time="0.0000" classname="Given an operator that has a call assigned when the method is called then it returns true">
+    </testcase>
+    <testcase name="Operator class isOnCall method Given an operator that has a call assigned and pass 15 seconds when the method is called then it returns true" time="0.0000" classname="Given an operator that has a call assigned and pass 15 seconds when the method is called then it returns true">
+    </testcase>
+  </testsuite>
+</testsuites>

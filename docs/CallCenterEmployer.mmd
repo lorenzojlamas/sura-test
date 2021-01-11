@@ -1,0 +1,18 @@
+ classDiagram
+    
+      CallCenterEmployer <|-- Operator
+      CallCenterEmployer <|-- Supervisor
+      CallCenterEmployer <|-- Director
+      CallCenterEmployer : - Call? call
+      CallCenterEmployer: + isOnCall()
+      CallCenterEmployer: + isAvailable()
+      CallCenterEmployer: + asingCall()
+      CallCenterEmployer: + removeCall()
+      CallCenterEmployer: + getCall()
+      class Operator{
+      }
+      class Supervisor{
+
+      }
+      class Director{
+      }
